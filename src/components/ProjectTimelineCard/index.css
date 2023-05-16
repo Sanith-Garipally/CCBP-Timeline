@@ -1,0 +1,42 @@
+.p-img {
+  width: 100%;
+}
+.p-title-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .p-title-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.p-title {
+  color: #171f46;
+  margin-bottom: 0;
+}
+.p-duration-container {
+  display: flex;
+  align-items: center;
+}
+.p-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+.p-duration {
+  font-size: 15px;
+  font-weight: bold;
+  color: #171f46;
+}
+.p-desc {
+  margin-top: 0;
+  color: #1e293b;
+  font-size: 16px;
+}
+.p-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0967d2;
+}
